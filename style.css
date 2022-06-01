@@ -1,0 +1,48 @@
+body, html {
+    padding:0; margin:0;
+}
+
+
+section {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+section#start h1 {
+   font-size:300%;
+}
+
+section#a {
+    background-image: url('/img/section_a.jpg');
+}
+
+section#b {
+    background-color:#2e2e2e;
+}
+
+section#c {
+    background-image: url('/img/section_b.jpg');
+}
+
+.card {
+    margin:20px;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top:50px;
+    margin-bottom:50px;
+    max-width:800px;
+    background-color:white;
+}
+
+body {
+    background-color: #eee;
+}
+
