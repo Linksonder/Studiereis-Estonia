@@ -2,6 +2,29 @@ body, html {
     padding:0; margin:0;
 }
 
+@font-face {
+    font-family: 'Estonia';
+    src: URL('Estonia/Estonia-Regular.ttf') format('truetype');
+  }
+
+
+section#a {
+    background-image: url('https://e-estonia.com/wp-content/uploads/digital-services-in-estonia-34893901820-o.jpg');
+}
+
+section#b {
+    background-image: url('https://assets.weforum.org/editor/EstoniaID.jpg');
+}
+
+section#c {
+    background-image: url('/img/section_b.jpg');
+}
+
+h1 {
+    font-size:500%;
+}
+
+
 
 section {
     background-repeat: no-repeat;
@@ -12,25 +35,19 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top:200px;
     padding-bottom:200px;
 }
 
-section#start h1 {
-   font-size:300%;
+section#start {
+   padding-top:0;
+   padding-bottom:0;
+   font-family: 'Estonia';
 }
 
-section#a {
-    background-image: url('/img/section_a.jpg');
+section.showImg{
+    padding-top:100vh;
 }
 
-section#b {
-    background-color:#2e2e2e;
-}
-
-section#c {
-    background-image: url('/img/section_b.jpg');
-}
 
 .card {
     margin:20px;
@@ -44,5 +61,35 @@ section#c {
 
 body {
     background-color: #eee;
+    /* max-width: 1200px;
+    margin-left:auto;margin-right:auto; */
 }
 
+.VideoPlayer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.VideoPlayer video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+.left {
+    margin-right: 30%;
+}
+
+.right { 
+    margin-left:30%;
+}
