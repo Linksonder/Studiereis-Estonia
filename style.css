@@ -81,8 +81,12 @@ section#e {
 
 h1.title {
     font-size:500%;
+    font-weight: bold;
 }
 
+p.subtitle {
+    font-size: 400%;;
+}
 
 
 section {
