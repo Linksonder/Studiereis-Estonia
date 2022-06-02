@@ -17,10 +17,69 @@ section#b {
 }
 
 section#c {
-    background-image: url('/img/section_b.jpg');
+    padding-top:100px;
+    padding-bottom:100px;
 }
 
-h1 {
+section#d {
+    min-height: 50vh;
+    background-position: center;
+    background-size: contain;
+    background-image: url('https://www.blueoceanstrategy.com/wp-content/webpc-passthru.php?src=https://www.blueoceanstrategy.com/wp-content/uploads/2021/09/E-estonia.png&nocache=1');
+}
+
+section#e img {
+    float:right; width:150px;margin-top: 100px;
+    animation: rotate 4s linear infinite;
+}
+
+section#g {
+    background-image: url('img/dt_blocks.png');
+}
+
+section#h1 {
+    background-image: url('img/findings_1.PNG');
+}
+
+section#h2 {
+    background-image: url('img/findings_2.jpg');
+}
+
+
+section#h3 {
+    background-image: url('img/findings_3.jpg');
+}
+
+section#h4 {
+    background-image: url('img/findings_4.jpeg');
+}
+
+
+
+section#i {
+    background-image: url('img/estonia_final.png');
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+section#f {
+    background-image: url('https://bebright.eu/wp-content/uploads/2018/09/e-estonia-og-image-a-1-1080x630.png');
+}
+
+section#k {
+    background-image: url('img/matrix.png');
+}
+
+/* 
+section#e {
+    background-image: url('/img/section_b.jpg');
+} */
+
+h1.title {
     font-size:500%;
 }
 
@@ -35,7 +94,13 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 200px;
     padding-bottom:200px;
+}
+
+section div.full {
+    max-width:800px;
+    width: 100%;;
 }
 
 section#start {
@@ -93,3 +158,59 @@ body {
 .right { 
     margin-left:30%;
 }
+
+.process {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.process img {
+    width:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process .card {
+    padding:20px;
+}
+
+.process span {
+    font-size:400%;
+    font-weight: bold;
+}
+
+.RQ {
+    text-align: center;
+}
+
+.RQ ol{
+    padding: none;
+    list-style-type: none;   
+}
+
+.RQ li{
+    font-size: 150%;
+    margin:20px;
+}
+
+.card.person 
+{
+    display: flex;
+    flex-direction: row;
+    padding:0;
+}
+
+.card.person img {
+    width: 150px;
+}
+
+.card div {
+    padding:20px;
+}
+
+
+
